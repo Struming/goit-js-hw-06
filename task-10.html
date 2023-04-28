@@ -9,11 +9,35 @@
   </head>
   <body>
     <p><a href="index.html">Go back</a></p>
+<button type="button" class="magic-btn js-magic-btn"> Зробити магію!</button>
 
-    <div id="controls">
-      <input type="number" min="1" max="100" step="1" />
-      <button type="button" data-create>Create</button>
-      <button type="button" data-destroy>Destroy</button>
+
+<ul class="sate-nave">
+  <li class="sate-nav__item">
+    <a href="/about" class="sate-nav__link">О нас</a>
+  </li>
+  <li class="sate-nav__item">
+    <a href="/portfolio" class="sate-nav__link">Портфоліо</a>
+  </li>
+  <li class="sate-nav__item">
+    <a href="/contact" class="sate-nav__link">Контакти</a>
+  </li>
+</ul>
+
+
+  <section class="hero">
+    <h1 class="hero__title"> Все про мене!</h1>
+    <img class="hero__image"
+    src="https://images.pexels.com/photos/219943/pexels-photo-219943.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',"
+    alt="Group of Horses Running"
+    width = '320'
+    />
+  </section>
+
+    <div class="actions  js-actions">
+      <button type="button" data-action ='add'>Створити</button> 
+      <button type="button" data-action ='remove'>Видалити</button>
+      <button type="button" data-action ='edit'>Редагувати</button>
     </div>
 
     <div id="boxes"></div>
